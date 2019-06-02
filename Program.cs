@@ -11,7 +11,7 @@ namespace Planner
         {
 
             // Creating buildings
-            Building building1 = new AddressConstructor("500 Interstate Blvd.")
+            Building building1 = new Building("500 Interstate Blvd.")
             {
                 Width = 25.5,
                 Depth = 30.6,
@@ -19,14 +19,14 @@ namespace Planner
 
             };
 
-            Building building2 = new AddressConstructor("500 SomeOther Blvd.")
+            Building building2 = new Building("500 SomeOther Blvd.")
             {
                 Width = 486.5,
                 Depth = 5482,
                 Stories = 5,
             };
 
-            Building building3 = new AddressConstructor ("500 Another Place")
+            Building building3 = new Building ("500 Another Place")
             {
                 Width = 2545,
                 Depth = 324,
@@ -52,10 +52,10 @@ namespace Planner
             };
 
             foreach(Building building in BuildingsList) {
-                Console.WriteLine(building.AddressConstructor);
-                Console.WriteLine($"Designed by {building.Designer}");
+                // Console.WriteLine($"Address: {building.Building()}");
+                Console.WriteLine($"Designed by {building.Designer()}");
                 Console.WriteLine("-------------");
-                Console.WriteLine();
+                Console.WriteLine(building.Construct());
             }
         }
     }

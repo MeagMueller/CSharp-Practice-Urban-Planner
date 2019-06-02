@@ -22,7 +22,7 @@ namespace Planner {
         public double Volume {
             get 
                 {
-                    return (Width*Depth(3*Stories));
+                    return (Width * Depth * (3*Stories));
                 }
         }
 
@@ -30,7 +30,7 @@ namespace Planner {
             return _designer;
         }
 
-        public void AddressConstructor(string address)
+        public Building(string address)
         {
             // The constructor's logic should set the _address field's value to the argument value
           _address = address;
