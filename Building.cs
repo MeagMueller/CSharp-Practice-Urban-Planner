@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Planner {
 
-    class Building {
+    public class Building {
 
         private string _designer = "Meag Mueller";
 
@@ -33,7 +33,7 @@ namespace Planner {
         public void AddressConstructor(string address)
         {
             // The constructor's logic should set the _address field's value to the argument value
-            _address = address;
+          _address = address;
         }
 
         public void Construct()

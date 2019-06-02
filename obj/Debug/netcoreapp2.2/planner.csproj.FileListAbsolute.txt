@@ -1,0 +1,4 @@
+C:\Users\Meag\workspace\csharp\exercises\classes\planner\obj\Debug\netcoreapp2.2\planner.csprojAssemblyReference.cache
+C:\Users\Meag\workspace\csharp\exercises\classes\planner\obj\Debug\netcoreapp2.2\planner.csproj.CoreCompileInputs.cache
+C:\Users\Meag\workspace\csharp\exercises\classes\planner\obj\Debug\netcoreapp2.2\planner.AssemblyInfoInputs.cache
+C:\Users\Meag\workspace\csharp\exercises\classes\planner\obj\Debug\netcoreapp2.2\planner.AssemblyInfo.cs
